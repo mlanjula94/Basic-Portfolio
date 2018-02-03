@@ -11,3 +11,67 @@ h1, h2, h3{
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+header{
+    height: 76px;    
+}
+
+#Name{
+    float:left;
+    font-size: 36px;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color:white;
+    width: 350px; 
+    text-align: center;
+}
+
+.TopNav{
+    position: relative;
+    float: right;
+    right: 0%;
+    padding:20px;
+}
+
+h2{
+    font-size: 24px;
+    color:#4aaaa5;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    font-size: 8px;
+    background-color: #666;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+#profile_pic{
+    float: left;
+}
+
+#descripion{
+    float: right;
+    margin: 10px;
+}
+
+.MainSection{
+    width: 650px;
+    float: left;
+    margin: 5px;
+    background: #ffffff;
+}
+
+.Sidebar{
+    width: 250px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+}
+.content{
+    height: auto;
+}
